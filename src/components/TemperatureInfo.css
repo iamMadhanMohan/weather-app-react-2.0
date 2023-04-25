@@ -1,0 +1,50 @@
+.TemperatureInfo
+{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: #02212a;
+}
+
+.temperature
+{
+    /* border: 2px solid red; */
+    padding: 2rem;
+}
+
+.temperature > p:first-child
+{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.temperature > p:nth-child(2)
+{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.city
+{
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.city > p:first-child
+{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+
+.city > p:last-child
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}

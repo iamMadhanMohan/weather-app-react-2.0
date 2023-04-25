@@ -1,0 +1,17 @@
+.Footer
+{
+    background-color: #02394A;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.Footer > p
+{
+    line-height: 1.2rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}

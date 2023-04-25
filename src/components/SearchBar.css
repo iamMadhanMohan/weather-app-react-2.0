@@ -1,0 +1,43 @@
+.SearchBar
+{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+input
+{
+    color: #02212a;
+    outline: none;
+    width: 30rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #02394A;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.387);
+}
+
+.button
+{
+    color: #02212a;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: 2px solid #02394A;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button2
+{
+    position: relative;
+    top: 40px;
+}
+
+.parent
+{
+    display: flex;
+    justify-content: center;
+}

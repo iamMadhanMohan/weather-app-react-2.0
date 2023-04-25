@@ -1,0 +1,14 @@
+.ErrorMsg
+{
+    color: red;
+   
+}
+
+.ErrorMsg > p
+{
+    margin-top: 10rem;
+    /* padding: 1rem; */
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
