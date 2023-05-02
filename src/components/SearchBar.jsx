@@ -34,7 +34,7 @@ const SearchBar = (props) => {
   return (
     <div className='parent'>
       <div>
-        <button className='button button2' onClick={handleUnits}>F | C</button>
+        <button className='button button2' onClick={handleUnits}> {props.units == 'imperial' ? 'F' : 'C'}</button>
       </div>
       <form action="submit">
         <div className='SearchBar'>

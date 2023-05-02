@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="App" style={bg ? blue : red}>
       <Header/>
-     <SearchBar setCityName={setCityName} setUnits={setUnits}/>
+     <SearchBar setCityName={setCityName} setUnits={setUnits} units={units}/>
      { errorMsg ? <TemperatureInfo data={apiData} units={units}/> : cityName == '' ? "" : <ErrorMsg/>}
      { errorMsg && <WeatherInfo data={apiData} units={units}/>}
      <Footer/> 

@@ -2,7 +2,6 @@
 {
     font-size: 2rem;
     color: #02394A;
-    
 }
 
 .Header > p
@@ -12,5 +11,22 @@
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     text-align: center;
+}
 
+@media screen and (min-width : 290px) and (max-width : 800px) {
+    
+.Header
+{
+    font-size: 1.5rem;
+    color: #02394A;
+}
+
+.Header > p
+{
+    padding: 1rem 1rem 0 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
 }
